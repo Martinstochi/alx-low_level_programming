@@ -1,3 +1,3 @@
-## ALX lower level prohramming language
+## ALX lower level prgramming language
 
 This is the low level programming language
