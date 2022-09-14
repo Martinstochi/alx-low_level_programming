@@ -1,11 +1,19 @@
 #include "main.h"
 
 /**
- * _islower -> checks if the character is lowercasei
- * @c: a character argument
- * Return: returns 1 and 0 depending on condition
+ * print_alphabet - Entry point
+ * Description: a function that prints the alphabet,
+ * in lowecase followed by a new line
+ * Return: void
  */
-int _islower(int c)
+void print_alphabet(void)
 {
-	return (c >= 'a' && c <= 'z');
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
+	_putchar('\n');
 }
